@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* https://htmlcolorcodes.com/ */
+
+/** 
+    #ff0000 - crvena
+    # ff   00    00
+    # red green blue 
+
+    rgb(255, 0, 0); - crvena
+    rgb( 255,   0,    0);
+    rgb( red, green, blue); 
+*/
+
+
+h1 {
+    color: #ff0000; /* red */
+}
+
+h2 {
+    color: #00ff00; /* green */
+}
+
+p {
+    color: #0000ff; /* blue */
+}
+
+.red {
+    color: rgb(255, 0, 0);
+}
+
+.white {
+    color: #ffffff;
+}
+
+.black {
+    color: #000000;
+}

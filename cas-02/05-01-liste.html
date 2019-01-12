@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Liste</title>
+</head>
+<body>
+
+    <h1>Liste</h1>
+    
+	<h2>Neuređena lista</h2>
+	<!--
+	list-style-type:
+		disc
+		circle
+		square
+		none
+	-->
+	<ul style="list-style-type: disc;"> <!-- unordered list - ul -->
+		<li>Kafa</li>
+		<li>Šećer</li>
+		<li>Mlijeko</li>
+    </ul>
+
+    <hr>
+    
+	<h2>Uređena lista</h2>
+	<!--
+	type:
+		1
+		A
+		a
+		I
+		i
+	-->
+	<ol type="i"> <!-- ordered list - ol -->
+		<li>Mlijeko</li>
+		<li>Šećer</li>
+		<li>Kafa</li>
+    </ol>
+    
+    <hr>
+	
+	<h2>Opisna lista</h2>
+	<dl> <!-- description list - dl -->
+		<dt>Kafa</dt>
+		<dd>Crna sa šećerom</dd>
+		<dt>Mlijeko</dt>
+		<dd>Moja kravica</dd>
+    </dl>
+    
+    <hr>
+	
+	<h2>Liste unutar liste</h2>
+	<ul>
+		<li>BWM</li>
+		<li>Audi <!-- početak nove liste unutar li taga -->
+			<ol>
+				<li>q6</li>
+				<li>q7</li>
+				<li>q8</li>
+			</ol>
+		</li>
+		<li>VW <!-- početak nove liste unutar li taga -->
+			<ul style="list-style-type: disc;">
+				<li>Passat</li>
+				<li><a href="#">Golf</a></li>
+			</ul>
+		</li>
+    </ul>
+    
+    <!-- liste unutar liste 
+    
+    <ul>
+        <li>
+            NOVA LISTA - počinje nakon otvaranja <li> taga
+            <ul>
+                <li></li>
+                <li></li>
+            </ul>
+            NOVA LISTA - završava prije zatvaranja <li> taga
+        </li>
+        <li></li>
+    </ul>
+
+    -->
+
+</body>
+</html>

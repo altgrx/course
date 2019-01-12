@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>class + child elements</title>
+	<style>
+		.crvena {
+			color: red;
+		}
+		.druga li:last-child {
+			color: blue;
+		}
+		.druga li:first-child {
+			color: green;
+		}
+		.druga li:nth-child(3) {
+			color: yellow;
+		}
+	</style>
+</head>
+<body>
+	<ul class="crvena">
+		<li>Prvi element</li>
+		<li>Drugi element</li>
+		<li>Treci element</li>
+		<li>Cetverti element</li>
+	</ul>
+	
+	<ul class="druga">
+		<li>Prvi element</li>
+		<li>Drugi element</li>
+		<li>Treci element</li>
+		<li>Cetverti element</li>
+	</ul>
+
+	<dl>
+		<dt>Kafa</dt>
+		<dd>Sa šećerom</dd>
+		
+		<dt>Kafa</dt>
+		<dd>Sa mlijekom</dd>
+	</dl>
+</body>
+</html>
