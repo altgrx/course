@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>position: relative</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        body {
+            margin: 0;
+            padding: 0;
+        }
+        /*
+            position:
+                static
+                relative
+                fixed
+                absolute
+                sticky (ne radi u Internet Expolorer-u)
+        */
+        .relative {
+            position: relative;
+            border: 1px solid #ff0000;
+            height: 300px;
+        }
+        /* position: absolute - element je pozicioniran apsolutno u odnosu na roditelj element koji ima poziciju reltive */
+        .absolute {
+            position: absolute;
+            top: 30px;
+            left: 20px;
+            border: 1px solid #0000ff;
+        }
+    </style>
+</head>
+<body>
+    <div class="relative">
+        <div class="absolute">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati, in.</p>
+        </div>
+    </div>
+</body>
+</html>

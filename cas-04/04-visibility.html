@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Visibility</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        body {
+            margin: 0;
+            padding: 0;
+        }
+        div {
+            width: 200px;
+            height: 200px;
+            border: 1px solid #f90000;
+            margin: 10px;
+            float: left;
+        }
+        div.hidden {
+            visibility: hidden;
+        }
+        div.none {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="hidden">
+        <p>1 - Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, quibusdam!asdadasdadadasdsd</p>
+    </div>
+    <div class="none">
+        <p>2 - Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, quibusdam!</p>
+    </div>
+    <div>
+        <p>3 - Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, quibusdam!</p>
+    </div>
+</body>
+</html>

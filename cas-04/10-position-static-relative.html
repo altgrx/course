@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>position: static</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        body {
+            margin: 0;
+            padding: 0;
+        }
+        div {
+            border: 1px solid #008dff;
+        }
+        /*
+            position:
+                static
+                relative
+                fixed
+                absolute
+                sticky (ne radi u Internet Expolorer-u)
+        */
+
+        /* position: static - elementi su poredani u svom prirodnom redoslijedu */
+        .static {
+            position: static;
+        }
+        /* position: relative - elementi su poredani u svom prirodnom redoslijedu ali za razliku od static, elementi se mogu pomjeriti u odnosu na svoju poziciju pomoću top, right, bottom, left atributa */
+        .relative {
+            position: relative;
+        }
+
+        .relative-moved {
+            position: relative;
+            top: 20px;
+            left: 50px;
+        }
+    </style>
+</head>
+<body>
+    <h2>position: static</h2>
+    <div class="static">
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid, ad!</p>
+    </div>
+
+    <h2>position: relative</h2>
+    <div class="relative">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, temporibus!</p>
+    </div>
+
+    <h2>position: relative + top: 20px; & left: 50px;</h2>
+    <div class="relative-moved">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, temporibus!</p>
+    </div>
+</body>
+</html>

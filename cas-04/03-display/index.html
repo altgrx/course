@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Display</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- diplay -->
+    <!-- display diktira na koji način je neki element prikazan -->
+    <!-- skoro svi elementi imaju jednu od dvoje glavne display vrijednost:
+        block:
+            <div>
+            <h1> - <h6>
+            <p>
+            <form>
+            <header>
+            <footer>
+            <section>
+        
+        inline:
+            <span>
+            <a>
+            <img>
+    -->
+    <!-- block-level element uvijek počinje na novoj liniji i zauzima čitavu širinu dokumenta (od lijeve do desne ivice) -->
+    <!-- inline element ne počinje na novoj liniji i zauzima samo onoliko prostora koliko mu je potrebno -->
+    <div>block-level</div>
+    <div>block-level</div>
+    <br>
+    <span>inline</span>
+    <span>inline</span>
+    <br>
+    <p class="hidden">Lorem ipsum dolor sit amet.</p>
+    <br>
+    <h2>display: inline</h2>
+    <div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum consequat scelerisque elit sit amet consequat. Aliquam erat volutpat. <span class="a">Aliquam</span> <span class="a">venenatis</span> gravida nisl sit amet facilisis. Nullam cursus fermentum velit sed laoreet.</p>
+    </div>
+
+    <h2>display: inline-block</h2>
+    <div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum consequat scelerisque elit sit amet consequat. Aliquam erat volutpat. <span class="b">Aliquam</span> <span class="b">venenatis</span> gravida nisl sit amet facilisis. Nullam cursus fermentum velit sed laoreet.</p>
+    </div>
+
+    <h2>display: block</h2>
+    <div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum consequat scelerisque elit sit amet consequat. Aliquam erat volutpat. <span class="c">Aliquam</span> <span class="c">venenatis</span> gravida nisl sit amet facilisis. Nullam cursus fermentum velit sed laoreet.</p>
+    </div>
+</body>
+</html>

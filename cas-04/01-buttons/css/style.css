@@ -1,0 +1,38 @@
+/**
+Note: a:hover MUST come after a:link and a:visited in the CSS definition in order to be effective.
+
+Note: a:active MUST come after a:hover in the CSS definition in order to be effective.
+*/
+
+/* unvisited link */
+a.simple-link:link {
+    color: #ff0000;
+}
+
+/* visited link */
+a.simple-link:visited {
+    color: #000000;
+}
+
+/* mouse over link */
+a.simple-link:hover {
+    color: #00ffff;
+}
+
+/* selected link */
+a.simple-link:active {
+    color: #004dff;
+}
+
+a.button-link {
+    background-color: #f44336;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+a.button-link:hover {
+    background-color: #ff0000;
+}

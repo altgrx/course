@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Float</title>
+    <style>
+    * {
+        box-sizing: border-box;
+    }
+    body {
+        margin: 10px;
+        padding: 0;
+    }
+    p.text-box {
+        border: 1px solid #009dff;
+        padding: 15px;
+    }
+    img {
+        float: right;
+        height: 200px;
+    }
+    .clearfix::after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+    </style>
+</head>
+<body>
+    <h2>Bez clearfix</h2>
+    <p class="text-box">
+            <img src="https://www.pepsi.com/en-us/uploads/images/can-pepsi.png" alt="Pepsi ">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est vitae laudantium aliquid unde corrupti animi, eius architecto distinctio beatae assumenda quidem fugiat alias pariatur obcaecati deserunt harum eaque incidunt non sunt libero iusto, error neque laboriosam veritatis! Quas imped it sequi esse voluptatem voluptates quis, recusandae fugit, animi dicta officiis praesentium! Ducimus illum dolorum nam cumque omnis, officia molestiae earum quidem ex aspernatur asperiores, quibusdam eius consequatur fuga quia expedita incidunt fugit eum laborum magni quaerat? Explicabo iste, qui praesentium, doloremque libero facere inventore quia excepturi placeat nulla, earum obcaecati unde mollitia odit tempore neque eius nobis. In nostrum numquam harum?
+        </p>
+
+    <h2>Sa clearfix</h2>
+    <p class="text-box clearfix">
+        <img src="https://www.pepsi.com/en-us/uploads/images/can-pepsi.png" alt="Pepsi ">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est vitae laudantium aliquid unde corrupti animi, eius architecto distinctio beatae assumenda quidem fugiat alias pariatur obcaecati deserunt harum eaque incidunt non sunt libero iusto, error neque laboriosam veritatis! Quas impedit sequi esse voluptatem voluptates quis, recusandae fugit, animi dicta officiis praesentium! Ducimus illum dolorum nam cumque omnis, officia molestiae earum quidem ex aspernatur asperiores, quibusdam eius consequatur fuga quia expedita incidunt fugit eum laborum magni quaerat? Explicabo iste, qui praesentium, doloremque libero facere inventore quia excepturi placeat nulla, earum obcaecati unde mollitia odit tempore neque eius nobis. In nostrum numquam harum?
+    </p>
+</body>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>position: fixed</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        body {
+            margin: 0;
+            padding: 0;
+        }
+        /*
+            position:
+                static
+                relative
+                fixed
+                absolute
+                sticky (ne radi u Internet Expolorer-u)
+        */
+        /* position: fixed - element je fiksiran u odnosu na stranicu */
+        .fixed {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background-color: #000;
+            color: #fff;
+            padding: 20px;
+        }
+        img {
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="fixed">
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita, laboriosam doloribus. Corrupti saepe recusandae alias odio qui laborum ut deserunt?</p>
+    </div>
+    
+    <div style="height: 2000px;">
+        <img src="https://images.pexels.com/photos/772803/pexels-photo-772803.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260" alt="img">
+    </div>
+</body>
+</html>
