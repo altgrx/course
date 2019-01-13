@@ -1,0 +1,11 @@
+1) Preuzeti git sa: https://git-scm.com/download/win
+2) Instalirati (kroz instalaciju samo ići na next)
+3) Napraviti novi folder na računaru
+4) U folderu desni klik i odabrati "git bash here"
+5) Otvoriće se terminal u kojem kucamo sljedeće komande
+    a) git init
+    b) git clone https://github.com/altgrx/course
+
+6) Navedene komande kucamo samo prvi put, poslije će biti dovoljno samo:
+    a) git pull
+    !napomena potrebno je otvoriti "git bash" unutar foldera "course"
