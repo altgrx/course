@@ -27,7 +27,7 @@ body {
 .galaxy-content {
     width: 400px;
     float: right;
-    margin: 50px 150px 100px 0;
+    margin: 50px 100px 100px 0;
 }
 
 .galaxy-content h2 {
@@ -68,6 +68,71 @@ body {
 }
 
 .galaxy-btn a:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+/*
+result with positioning
+*/
+
+.galaxy {
+    margin: 0 auto;
+    max-width: 85%;
+    height: 550px;
+    background-image: url(../img/DT-HP-MOB-2-010719.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.galaxy__content {
+    width: 400px;
+    position: absolute;
+    top: 50%;
+    right: 100px;
+    transform: translateY(-50%);
+}
+
+.galaxy__content h2 {
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 1;
+}
+
+.galaxy__content p {
+    font-size: 22px;
+    margin-bottom: 0;
+    line-height: 1.5;
+}
+
+.galaxy__content a {
+    font-size: 22px;
+    color: #000;
+    margin-top: 5px;
+}
+
+.galaxy__btn {
+    margin-top: 50px;
+}
+
+.galaxy__btn a {
+    display: inline-block;
+    padding: 10px 15px;
+    border: 1px solid #000;
+    border-radius: 25px;
+    font-size: 13px;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: all .5s ease;
+}
+
+.galaxy__btn a:not(last-child) {
+    margin-right: 25px;
+}
+
+.galaxy__btn a:hover {
     background-color: #000;
     color: #fff;
 }
