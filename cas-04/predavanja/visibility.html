@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Visibility</title>
+    <style>
+    div {
+        border: 1px solid #f00;
+        margin: 10px;
+    }
+    img {
+        width: 100%;
+        opacity: 0.8;
+        transition: all .5s ease;
+    }
+    img:hover {
+        opacity: 1;
+    }
+    </style>
+</head>
+<body>
+    <div style="display: none;"><p>1 - Lorem ipsum dolor sit amet.</p></div>
+    <div style="visibility: hidden;"><p>2 - Lorem ipsum dolor sit amet.</p></div>
+    <div style="opacity: 0;"><p>3 - Lorem ipsum dolor sit amet.</p></div>
+    <div><p>4 - Lorem ipsum dolor sit amet.</p></div>
+    <img src="https://images.pexels.com/photos/1497302/pexels-photo-1497302.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="img">
+</body>
+</html>

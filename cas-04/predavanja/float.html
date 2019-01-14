@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>float</title>
+    <style>
+        p {
+            border: 1px solid #f00;
+        }
+        img {
+            float: left;
+            width: 100px;
+        }
+        .clearfix::after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+    </style>
+</head>
+<body>
+    <p class="clearfix"><img src="https://www.pepsi.com/en-us/uploads/images/can-pepsi.png?mtime=20180110134757" alt=""> Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus ducimus unde quisquam impedit, voluptatibus libero necessitatibus tempore adipisci minus, ab quam saepe, totam aperiam illum veritatis? Cumque ipsa maiores expedita, ipsam, molestias hic est, nihil aut quia illum id quisquam velit sit ipsum iure beatae tempora eligendi officiis? Corporis, alias.</p>
+  
+</body>
+</html>
