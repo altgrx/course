@@ -1,0 +1,4 @@
+Napraviti sekciju "Vijesti" sa sajta https://knjaz.rs/.
+Slika kao primjer je u prilogu.
+
+Koristiti pozicije i float.

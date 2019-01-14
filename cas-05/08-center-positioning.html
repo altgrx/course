@@ -18,6 +18,7 @@
             width: 100%;
             height: 500px;
             background-color: #333;
+            /* roditelj element treba da ima poziciju relative */
             position: relative;
         }
         .child {
@@ -25,6 +26,8 @@
             padding: 20px;
             background-color: #ffff00;
             font-weight: bold;
+            /* dijete element treba da ima poziciju absolute */
+            /* dijete element se pozicionira u odnosu na gornju lijevu tačku */
             position: absolute;
             top: 50%;
             left: 50%;
