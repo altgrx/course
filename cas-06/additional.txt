@@ -1,0 +1,2 @@
+label           : https://stackoverflow.com/questions/18432376/what-does-for-attribute-do-in-html-label-tag/18432439#18432439
+<hr>'s styles   : https://css-tricks.com/examples/hrs/

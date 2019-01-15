@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>box-sizing</title>
+    <style>
+        .div1 {
+            width: 300px;
+            height: 100px;
+            border: 1px solid blue;
+        }
+
+        .div2 {
+            width: 300px;
+            height: 100px;
+            padding: 50px;
+            border: 1px solid red;
+        }
+
+        .div3 {
+            width: 300px;
+            height: 100px;
+            border: 1px solid blue;
+            box-sizing: border-box;
+        }
+
+        .div4 {
+            width: 300px;
+            height: 100px;
+            padding: 50px;
+            border: 1px solid red;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+
+<body>
+    <!--
+        box-sizing nam omogućava da uključimo padding i border u ukupnu širinu/visinu elementa
+    -->
+    <!-- bez box-sizing -->
+    <h2>bez box-sizing</h2>
+    <div class="div1">width: 300px; height: 100px;</div>
+    <br>
+    <div class="div2">width: 300px; height: 100px;</div>
+    <br>
+    <!-- sa box-sizing -->
+    <h2>sa box-sizing</h2>
+    <div class="div3">width: 300px; box-sizing: 100px;</div>
+    <br>
+    <div class="div4">width: 300px; box-sizing: 100px;</div>
+</body>
+
+</html>

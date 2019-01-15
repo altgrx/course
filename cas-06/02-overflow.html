@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Overflow</title>
+    <style>
+        div {
+            background-color: #eee;
+            width: 300px;
+            height: 80px;
+            border: 1px dotted black;
+            float: left;
+        }
+
+        div.overflow-visible {
+            overflow: visible;
+            /* sadržaj je vidljiv iako ne staje u blok */
+        }
+
+        div.overflow-hidden {
+            overflow: hidden;
+            /* vidljiv samo dio sadržaja koji staje u blok */
+        }
+
+        div.overflow-scroll {
+            overflow: scroll;
+            /* sav sadržaj je dostupan na scroll */
+        }
+    </style>
+</head>
+
+<body>
+    <h2>CSS Overflow</h2>
+    <p>By default, the overflow is visible...</p>
+
+    <div class="overflow-visible">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque ullam ipsam aspernatur quaerat, atque cumque tenetur dolorum blanditiis nihil quos sit quasi architecto natus saepe temporibus hic adipisci non eius incidunt libero officiis neque aliquid earum? Veritatis quidem officia quam sunt nihil, vel quod, ab delectus, omnis eum cupiditate harum.</div>
+
+    <div class="overflow-hidden">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam vero cupiditate magnam deserunt quasi excepturi velit illum assumenda earum esse error doloremque vitae, maiores sequi voluptatibus pariatur tempora voluptate quo soluta dolores dolorum. Praesentium qui dignissimos impedit animi. Tempora ratione velit sit, sunt dolor atque laboriosam totam eum eaque reiciendis?</div>
+
+    <div class="overflow-scroll">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam vero cupiditate magnam deserunt quasi excepturi velit illum assumenda earum esse error doloremque vitae, maiores sequi voluptatibus pariatur tempora voluptate quo soluta dolores dolorum. Praesentium qui dignissimos impedit animi. Tempora ratione velit sit, sunt dolor atque laboriosam totam eum eaque reiciendis?</div>
+</body>
+
+</html>

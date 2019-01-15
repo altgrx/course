@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Contact</title>
+</head>
+<body>
+    <div class="form">
+        <h1>Contact Form</h1>
+        <form class="contact" action="message.php">
+            <!-- više o label: https://stackoverflow.com/questions/18432376/what-does-for-attribute-do-in-html-label-tag/18432439#18432439 -->
+            <!-- 
+                <label> omogućava korisniku da klikne na label, i to će se tretirati kao klik na element na koji label asocira 
+                <label> treba da ima for atribut, koji se podudara sa id-em od elementa na koji on asocira
+                    npr:
+                    <label for="fname"></label>
+                    <input id="fname">
+            -->
+            <label for="fname" class="required">First Name</label>
+            <input type="text" name="fname" id="fname" placeholder="Your name..." required>
+            <label for="lname" class="required">Last Name</label>
+            <input type="text" name="lname" id="fname" placeholder="Your last name..." required>
+            <label for="country" class="required">Country</label>
+            <select name="country" id="country" required>
+                <option value="none" selected disabled>Country</option>
+                <option value="bih">Bosnia and Herzegovina</option>
+                <option value="srb">Serbia</option>
+            </select>
+            <label for="message" class="required">Message</label>
+                <textarea name="message" id="message" required></textarea>
+           
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+</body>
+</html>
