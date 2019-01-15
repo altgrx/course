@@ -1,0 +1,3 @@
+Inicijalno je bilo zamišljeno da div blok u kojem se nalazi sadržaj pozicionirate pomoću margina, jer smo u tom trenutku margine savladali.
+Zadatak je bolje riješiti pomoću pozicija.
+Slika može da bude i kao pozadina, ali je opet bolje rješenje preko <img> taga.

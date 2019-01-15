@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>GRID</title>
+    <style>
+    * {
+        box-sizing: border-box;
+    }
+    body {
+        margin: 0;
+        padding: 0;
+    }
+    .clearfix::after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+    .col-1-2 {
+        border: 1px solid #009dff;
+        width: 50%;
+        float: left;
+        padding: 15px;
+    }
+    </style>
+</head>
+<body>
+    <div class="cleafix">
+        <div class="col-1-2">
+            <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+        <div class="col-1-2">
+            <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+    </div>
+</body>
+</html>

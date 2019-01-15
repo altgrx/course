@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>not selector</title>
+    <style>
+        /*    
+        ul li:first-child {
+            color: #f00;
+        }
+        */
+        /*
+        ul li:not(:first-child) {
+            color: #f00;
+        }
+        */
+        ul li:not(.red) {
+            color: #f00;
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <li>element</li>
+        <li>element</li>
+        <li class="red">element</li>
+        <li>element</li>
+        <li>element</li>
+    </ul>
+</body>
+</html>

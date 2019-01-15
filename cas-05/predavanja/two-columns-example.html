@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>GRID</title>
+    <style>
+    * {
+        box-sizing: border-box;
+    }
+    body {
+        margin: 0;
+        padding: 0;
+    }
+    .clearfix::after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+    .col-1-2 {
+        width: 50%;
+        float: left;
+        padding: 15px;
+    }
+    img {
+        width: 60%;
+        float: right;
+    }
+    p {
+        margin-top: 0;
+    }
+    </style>
+</head>
+<body>
+    <div class="cleafix">
+        <div class="col-1-2">
+            <img src="https://images.pexels.com/photos/1776630/pexels-photo-1776630.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="">
+        </div>
+        <div class="col-1-2">
+            <p>Lorem ipsum dolor sit amet. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat, odio accusamus aliquid animi modi sed inventore error laboriosam ad perferendis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, voluptas! </p>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,13 @@
+1. pokušati napraviti, što približnije moguće, prvu sekciju sa sajta: https://www.samsung.com/us/ (primjer sekcije se nalazi u prilogu)
+    - stranica treba da ima naziv: qled.html
+    - potrebno je napraviti poseban folder za css i img
+    - link do slike: https://image-us.samsung.com/SamsungUS/home/televisions-and-home-theater/television-and-home-theater-accessories/pcd/010719/DT-HP-PCD-QLED_8K-010719.jpg
+
+2. Ispod te sekcije ubaciti google mapu (lokacija po izboru): https://www.google.com/maps?hl=bs
+
+Napomena: koristiti google fonts: https://fonts.google.com/
+
+Pomoć (
+    - slika je postavljena kao pozadina u bloku koji ima svoju fiksnu širinu i visinu
+    - tekst i linkovi se nalaze u div bloku koji ima određenu širinu, visinu i margine
+)
