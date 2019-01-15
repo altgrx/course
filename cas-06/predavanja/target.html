@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>show on hover</title>
+    <style>
+        a {
+            text-decoration: none;
+        }
+        a[target="_blank"] {
+            color: #f00;
+        }
+        a[target="_blank"]:hover {
+            color: #000;
+        }
+        a[target="_self"] {
+            color: #f0f;
+        }
+    </style>
+</head>
+
+<body>
+    <span>lorem</span>
+    <a href="#">Link1</a>
+    <a href="#" target="_blank">Link2</a>
+    <a href="#" target="_self">Link3</a>
+    <div>Lorem, ipsum.</div>
+</body>
+
+</html>

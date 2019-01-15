@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>show on hover</title>
+    <style>
+        .showme {
+            display: none;
+            /*
+                visibility: hidden;
+                opacity: 0;
+            */
+            transition: all .5s ease;
+        }
+        .show {
+            display: inline-block;
+            padding: 10px;
+            transition: all .5s ease;
+        }
+        .show:hover {
+            background-color: #ccc;
+        }
+        .show:hover .showme {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <div class="show">
+        <span>Lorem ipsum dolor sit.</span>
+        <div class="showme">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit, enim!</p>
+        </div>
+    </div>
+</body>
+</html>
