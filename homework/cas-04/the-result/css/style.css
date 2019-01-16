@@ -48,10 +48,6 @@ table {
 	border-spacing: 0;
 }
 
-* {
-    box-sizing: border-box;
-}
-
 @font-face {
     font-family: Samsung;
     src: url(https://www.samsung.com/us/smg/etc/designs/samsung/global/global_clientlib/fonts/SamsungOneLatinWeb-400.woff);
@@ -62,6 +58,9 @@ table {
     src: url(https://www.samsung.com/us/smg/etc/designs/samsung/global/global_clientlib/fonts/SamsungSharpSans-Bold.woff);
 }
 
+* {
+    box-sizing: border-box;
+}
 
 body {
     font-family: Samsung, sans-serif;
@@ -69,21 +68,21 @@ body {
 
 .hero {
     width: 90%;
-    height: 670px;
+    height: 586px;
     position: relative;
     margin: 0 auto;
 }
 
-.hero-content {
+.hero__content {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    left: 8.3%;
+    left: 58.3%;
     width: 31%;
-    color: #fff;
+    color: #000;
 }
 
-.hero img {
+.hero__img {
     width: 100%;
 }
 
@@ -99,13 +98,13 @@ body {
     line-height: 1.71;
 }
 
-.hero .hero-cta {
-    margin-top: 40px;
+.hero__cta {
+    margin-top: 50px;
 }
 
-.hero .hero-btn {
+.hero__btn {
     display: inline-block;
-    color: #fff;
+    color: #000;
     text-transform: uppercase;
     text-decoration: none;
     font-size: 11px;
@@ -113,24 +112,25 @@ body {
     transition: all .3s ease;
 }
 
-.hero .hero-btn:first-child {
-    margin-right: 25px;  
-    border-bottom: 1px solid #fff;
-    padding-bottom: 7px;
+.hero__btn:not(:last-child) {
+    margin-right: 25px;
 }
 
-.hero .hero-btn:first-child:hover {
-    color: #20a2ff;
-    border-bottom: 1px solid #20a2ff;
-}
-
-.hero .btn-round {
-    border: 1px solid #fff;
+.hero__btn-round {
+    border: 1px solid #000;
     border-radius: 25px;
     padding: 15px 18px;
 }
 
-.hero .btn-round:hover {
-    background-color: #fff;
-    color: #000;
+.hero__btn-round:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+.hero__detail {
+    font-size: 21px;
+    cursor: pointer;
+    text-decoration: underline;
+    margin-top: 5px;
+    margin-left: 2px;
 }
