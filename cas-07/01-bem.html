@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>BEM - Block Element Modifier</title>
+</head>
+<body>
+    <!-- http://getbem.com/naming/ -->
+
+    <!-- Block -->
+    <div class="block">
+        <!-- ... -->
+    </div>
+
+    <!-- Element -element nekog bloka -->
+    <div class="block">
+        <span class="block__elem">
+            <!-- ... -->
+        </span>
+    </div>
+
+    <!-- Stoga u CSS možemo pristupiti klasi:
+        good: 
+            .block__elem { color: #042; }
+        bad:
+            .block .block__elem { color: #042; }
+    -->
+
+    <!-- Modifier - koristimo ih da promijenimo način na koji se prikazuju elementi -->
+    <div class="block block--hidden">
+        <span class="block__elem">
+            <!-- ... -->
+        </span>
+    </div>
+        <!-- or -->
+    <div class="block">
+        <span class="block__elem block--big">
+            <!-- ... -->
+        </span>
+    </div>
+
+    <!-- BEM - primjer -->
+    <div class="hero">
+        <div class="hero__content vh-centered">
+            <h1 class="hero__headline">TASTE THE FEELING</h1>
+            <h5 class="hero__subheadline">No one can stop me when I taste that feeling. Nothing could ever bring me down.</h5>
+            <a href="#" class="btn btn--red">Taste me</a> 
+            <a href="#" class="btn btn--white">Feel me</a> 
+        </div>
+    </div>
+</body>
+</html>

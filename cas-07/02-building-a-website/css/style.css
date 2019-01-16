@@ -1,0 +1,352 @@
+/* reset START */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* reset END */
+
+/* Global START */
+
+body { font-family: 'Comfortaa', cursive; }
+
+* { box-sizing: border-box; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	color: #000;
+	font-weight: 600;
+	line-height: 1.5;
+	margin: 0 0 20px 0;
+}
+
+h1 { font-size: 36px; }
+
+h2 { font-size: 30px; }
+
+h3 { font-size: 24px; }
+
+h4 { font-size: 18px; }
+
+h5 { font-size: 14px; }
+
+h6 { font-size: 12px; }
+
+p { 
+    font-size: 15px;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.vh-centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.v-centered {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.videoWrapper {
+	position: relative;
+/*    padding-bottom: 56.25%; /* 16:9 */
+    padding-bottom: 42.85%; /* 21:9 */
+	padding-top: 25px;
+	height: 0;
+}
+.videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+hr.divider {
+    width: 50%;
+    margin: 0 auto;
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+/* Button START */
+
+.btn {
+    display: inline-block;
+    margin: 20px 10px 20px 0;
+    padding: 15px 25px;
+    text-decoration: none;
+    border-radius: 1px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: all .5s ease;
+}
+
+.btn--red {
+    background-color: rgba(230, 29, 43, .9);
+    color: #fff;
+}
+
+.btn--red:hover {
+    background-color: rgba(230, 29, 43, 1);
+}
+
+.btn--white {
+    background-color: rgba(255, 255, 255, .8);
+    color: #000;
+}
+
+.btn--white:hover {
+    background-color: rgba(0, 0, 0, .8);
+    color: #fff;
+}
+
+.btn--black {
+    background-color: rgba(0, 0, 0, .8);
+    color: #fff;
+    border: 1px solid rgba(0, 0, 0, .8);
+}
+
+.btn--black:hover {
+    background-color: rgba(255, 255, 255, .8);
+    color: #000;
+    border: 1px solid rgba(0, 0, 0, .8);
+}
+
+/* Button END */
+
+/* Global END */
+
+/* Header START */
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+    background-color: rgba(0, 0, 0, .7);
+    padding-left: 15px;
+    padding-right: 15px;
+    z-index: 1000;
+}
+
+.header__logo {
+    width: 120px;
+    height: inherit;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.header__img {
+    height: 40px;
+    width: auto;
+}
+
+.header__menu {
+    right: 15px;
+    text-align: right;
+}
+
+.header__link {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 15px;
+    transition: all .5s ease;
+}
+
+.header__link:hover {
+    color: rgba(230, 29, 43, .9);
+}
+
+/* Header END */
+
+/* Footer START */
+
+.footer {
+    position: relative;
+    width: 100%;
+    height: 80px;
+    background-color: rgba(230, 29, 43, .9);
+    color: #fff;
+}
+
+/* Footer END */
+
+/* Hero START */
+
+.hero {
+    width: 100%;
+    height: 80vh;
+    overflow: hidden;
+    position: relative;
+    background-image: url(../img/coca-cola-siente-el-sabor-amigos-1800x700.jpg);
+    background-position: 50% 50%;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.hero__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 1;
+}
+
+.hero__content {
+    width: 70%;
+    text-align: center;
+}
+
+.hero__headline {
+    font-size: 74px;
+    font-weight: 700;
+    color: #fff;
+    text-shadow: 5px 5px 25px #000;
+    padding: 15px;
+}
+
+.hero__subheadline {
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+    text-shadow: 5px 5px 25px #000;
+}
+/* Hero END */
+
+.info {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* GRID START */
+
+.grid::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.col-4, .col-3, .col-2 {
+    float: left;
+    padding: 20px;
+}
+
+.col-4 {
+    width: 25%;
+}
+
+.col-3 {
+    width: 33.333333%;
+}
+
+.col-2 {
+    width: 50%;
+}
+
+/* GRID END */
+
+/* Features START */
+
+.features {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.features__headline,
+.features__subheadline {
+    text-align: center;
+}
+
+.features__headline {
+    margin-bottom: 10px;
+}
+
+.features__subheadline {
+    font-weight: 400;
+}
+
+.features__icon {
+    float: left;
+    height: 100%;
+}
+
+.features__icon i {
+    font-size: 60px;
+    color: rgba(230, 29, 43, .9);
+}
+
+.features__content {
+    margin-left: 75px;
+    padding-left: 10px;
+}
+
+.features__icon-headline {
+    margin-bottom: 5px;
+}
+
+/* Features END */

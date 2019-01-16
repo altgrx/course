@@ -130,6 +130,10 @@ table {
 	width: 60%;
 }
 
+.portfolio a:not(.portfolio-image) {
+	width: 100%;
+}
+
 .portfolio:hover :not(.portfolio-image) {
 	display: block;
 }
