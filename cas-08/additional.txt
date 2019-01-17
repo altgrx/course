@@ -1,0 +1,2 @@
+linear-gradient + radius-gradient       : https://www.w3schools.com/css/css3_gradients.asp
+                                        : https://developer.mozilla.org/en-US/docs/Web/CSS/linear-gradient
