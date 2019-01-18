@@ -1,3 +1,0 @@
-1. Napraviti html stranicu sa nazivom: coca-cola.html, koja će sadržavati sve potrebne elemente koje jedna html stranica treba da ima (html, head, body, title)
-2. Ubaciti naslov u kojem će pisati Coca-Cola crvenom bojom. Naslov treba da bude centriran.
-3. Ubaciti sliku od Coca-Cola, klikom na sliku otvoriće se sajt Coca-Cola u novom tabu.

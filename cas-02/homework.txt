@@ -1,6 +1,0 @@
-1. Napraviti html stranicu sa nazivom: adidas.html, koja će sadržavati sve potrebne elemente koje jedna html stranica treba da ima (html, head, body, title, meta),
-2. Ubaciti sliku Adidas koja će da vodi na oficijalnu stranicu Adidasa u istom tabu,
-3. Napraviti div block, koji će imati sivu pozadinu (lightgray), font unutar div blocka je Times New Roman, 
-   div block treba da sadrži naslov h1, horizontalnu liniju u plavoj boji, i paragraf u kojem će jedna riječ da bude crvene boje,
-4. Napraviti neuređenu listu koja sadrži najnovije modele patika (bar 5),
-5. Napraviti tabelu koja će da sadrži dvije kolone, u prvoj koloni je ime proizvoda, u drugoj cijena, definisati naslove tabele i ubaciti bar tri proizvoda
