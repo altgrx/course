@@ -1,0 +1,2 @@
+pagination examples             : https://www.w3schools.com/css/css3_pagination.asp
+2d-transform                    : https://www.w3schools.com/css/css3_2dtransforms.asp
