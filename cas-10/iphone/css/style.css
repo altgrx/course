@@ -1,0 +1,203 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Helvetica;
+    background-color: #eee;
+}
+
+.iphone {
+    width: 80%;
+    margin: 0 auto;
+    height: 420px;
+    background-color: #fff;
+    background-image: url(../img/compare_medium.jpg);
+    background-repeat: no-repeat;
+    background-position: 100px center;
+    background-size: 234px 303px;
+    position: relative;
+}
+
+.iphone__content {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 50px;
+    width: 260px;
+}
+
+.iphone__headline {
+    font-size: 34px;
+    font-weight: 700;
+    text-align: center;
+    line-height: 1.2;
+}
+
+.iphone__link {
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 16px;
+    text-decoration: none;
+    color: #0070c9;
+}
+
+.iphone__content i {
+    color: #0070c9;
+    font-size: 12px;
+    margin-left: 1px;
+}
+
+.iphone__link:hover {
+    text-decoration: underline;
+}
+
+.face-time {
+    width: 100%;
+    height: 400px;
+    background-image: url(../img/a_little_company_medium.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.face-time__content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    text-align: center;
+}
+
+.face-time__headline {
+    color: #fff;
+    font-weight: 700;
+    font-size: 38px;
+}
+
+.face-time__links {
+    margin-top: 30px;
+}
+
+.face-time__links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 21px;
+}
+
+.face-time__links i {
+    color: #fff;
+    font-size: 17px;
+}
+
+.ml-25 {
+    margin-left: 25px;
+}
+
+.facts {
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+
+.col-1-2 {
+    width: 50%;
+    float: left;
+    padding: 50px;
+}
+
+.facts {
+    text-align: center;
+}
+
+.facts i {
+    text-align: center;
+    display: block;
+    color: #aaa;
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.facts h3 {
+    font-size: 21px;
+    font-weight: 700;
+    margin-bottom: 7px;
+    color: #333;
+}
+
+.facts p {
+    font-size: 19px;
+    color: #333;
+    line-height: 1.3;
+}
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.facts a {
+    display: inline-block;
+    color: #0070c9;
+    text-decoration: none;
+    margin-top: 10px;
+    font-size: 19px;
+}
+
+.facts i.fa-chevron-right {
+    color: #0070c9;
+    font-size: 13px;
+    margin-left: 2px;
+    display: inline-block;
+    vertical-align: baseline;
+}
