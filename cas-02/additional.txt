@@ -1,3 +1,0 @@
-UTF-8           : https://sr.wikipedia.org/wiki/UTF-8
-tabele          : https://html.com/tables/
-borders         : https://www.w3schools.com/css/css_border.asp

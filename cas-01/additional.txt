@@ -1,4 +1,0 @@
-putanje:            https://www.w3schools.com/html/html_filepaths.asp
-definisanje css-a:  https://www.hostinger.com/tutorials/difference-between-inline-external-and-internal-css
-linkovi:            http://www.tutorijali.net/html/linkovi
-css sintaksa:       https://www.w3schools.com/css/css_syntax.asp

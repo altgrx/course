@@ -1,0 +1,6 @@
+Input types         : https://www.w3schools.com/html/html_form_input_types.asp
+All about forms     : https://www.tutorialspoint.com/html/html_forms.htm
+HEX colors          : https://htmlcolorcodes.com/
+Margin collapse     : https://www.w3schools.com/css/tryit.asp?filename=trycss_margin_collapse
+Paths               : https://www.w3schools.com/html/html_filepaths.asp
+Git					: https://guides.github.com/activities/hello-world/
