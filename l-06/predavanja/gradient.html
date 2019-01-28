@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Gradient</title>
+    <style>
+        .block {
+            width: 100%;
+            height: 200px;
+            border: 1px solid #333;
+            margin: 40px 0;
+        }
+
+        .linear {
+            background-image: linear-gradient(#f00, #000);
+        }
+
+        .linear-right {
+            background-image: linear-gradient(to right, #f00, #000)
+        }
+
+        .linear-bottom-right {
+            background-image: linear-gradient(to bottom right, #f00, #000);
+        }
+
+        .linear-multiple {
+            background-image: linear-gradient(to right, #f00, #000, #00f);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="block linear">
+
+    </div>
+    <div class="block linear-right">
+
+    </div>
+    <div class="block linear-bottom-right">
+
+    </div>
+    <div class="block linear-multiple">
+
+    </div>
+</body>
+
+</html>

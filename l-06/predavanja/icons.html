@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Icons</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <style>
+    .fa-air-freshener {
+        font-size: 50px;
+        color: #f00;
+    }
+    a[target="_blank"] {
+        color: #f00;
+    }
+    a[href="#"] {
+        color: #0f0;
+    }
+    .block {
+        width: 400px;
+        height: 200px;
+        border: 1px solid #333;
+        background-color: rgb(255, 0, 0);
+        background-color: rgba(255, 0, 0, .7);
+        opacity: .7;
+        overflow: hidden;
+        position: relative;
+    }
+    .block p {
+        font-size: 20px;
+        font-weight: 700;
+        font-family: sans-serif;
+        z-index: 9;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .block img {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        z-index: 8;
+        transform: translate(-50%, -50%);
+    }
+    </style>
+</head>
+<body>
+    <i class="fas fa-air-freshener"></i>
+    <a href="google.com">Link</a>
+    <a href="#" target="_blank">Link2</a>
+    <a href="#" target="_self">Link3</a>
+ <!--   <div class="block">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi tempora sapiente amet libero possimus eaque autem nihil consequatur sint inventore atque, accusamus rerum numquam a natus provident assumenda officia quibusdam officiis mollitia porro molestias iusto asperiores quod. Alias accusantium expedita soluta, quisquam, laboriosam similique, natus doloribus placeat aliquam sequi odit!</p>
+    </div>-->
+    <div class="block">
+       <img src="https://images.pexels.com/photos/50631/pexels-photo-50631.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" width="500" alt="">
+       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam, exercitationem?</p>
+    </div>
+</body>
+</html>

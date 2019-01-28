@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>grid</title>
+    <style>
+    * {
+        box-sizing: border-box;
+    }
+    .container {
+        border: 5px solid #000;
+    }
+    .col-1-2 {
+        border: 1px solid #f00;
+        width: 50%;
+        float: left;
+    }
+    .clearfix::after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+    </style>
+</head>
+<body>
+    <div class="container clearfix">
+        <div class="col-1-2">
+            <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+        <div class="col-1-2">
+            <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        /*
+        ul li {
+            color: #f00;
+        }
+        ul li:first-child {
+            color: #0f0;
+        }
+        ul li:last-child {
+            color: #00f;
+        }
+        */
+        ul li:not(:first-child) {
+            color: #f00;
+        }
+        ul li:nth-child(4) {
+            color: #000;
+        }
+        ul li:not(:nth-child(4)) {
+            color: #0f0;
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <li>Lorem, ipsum dolor.</li>
+        <li>Lorem, ipsum dolor.</li>
+        <li>Lorem, ipsum dolor.</li>
+        <li>Lorem, ipsum dolor.</li>
+        <li>Lorem, ipsum dolor.</li>
+    </ul>
+</body>
+</html>
